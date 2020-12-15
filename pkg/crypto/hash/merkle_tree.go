@@ -3,7 +3,7 @@ package hash
 import (
 	"errors"
 
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // MerkleTree implementation.

@@ -1,8 +1,8 @@
 package storagecontract
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/interop/iterator"
-	"github.com/nspcc-dev/neo-go/pkg/interop/storage"
+	"github.com/neophora/neo2go/pkg/interop/iterator"
+	"github.com/neophora/neo2go/pkg/interop/storage"
 )
 
 // Main is a very useful function.

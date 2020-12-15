@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/io"
+	"github.com/neophora/neo2go/pkg/io"
 	"github.com/stretchr/testify/require"
 )
 

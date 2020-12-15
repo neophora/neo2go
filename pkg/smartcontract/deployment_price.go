@@ -1,6 +1,6 @@
 package smartcontract
 
-import "github.com/nspcc-dev/neo-go/pkg/util"
+import "github.com/neophora/neo2go/pkg/util"
 
 // GetDeploymentPrice returns contract deployment price based on its properties.
 func GetDeploymentPrice(props PropertyState) util.Fixed8 {

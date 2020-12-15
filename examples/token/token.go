@@ -1,10 +1,10 @@
 package tokencontract
 
 import (
-	"github.com/nspcc-dev/neo-go/examples/token/nep5"
+	"github.com/neophora/neo2go/examples/token/nep5"
 
-	"github.com/nspcc-dev/neo-go/pkg/interop/storage"
-	"github.com/nspcc-dev/neo-go/pkg/interop/util"
+	"github.com/neophora/neo2go/pkg/interop/storage"
+	"github.com/neophora/neo2go/pkg/interop/util"
 )
 
 const (

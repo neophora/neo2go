@@ -4,9 +4,9 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/nspcc-dev/neo-go/pkg/crypto/hash"
-	"github.com/nspcc-dev/neo-go/pkg/io"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/crypto/hash"
+	"github.com/neophora/neo2go/pkg/io"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // Witness contains 2 scripts.

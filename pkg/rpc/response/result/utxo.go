@@ -1,6 +1,6 @@
 package result
 
-import "github.com/nspcc-dev/neo-go/pkg/util"
+import "github.com/neophora/neo2go/pkg/util"
 
 // UTXO represents single output for a single asset.
 type UTXO struct {

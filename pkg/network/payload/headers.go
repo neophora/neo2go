@@ -1,8 +1,8 @@
 package payload
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/core/block"
-	"github.com/nspcc-dev/neo-go/pkg/io"
+	"github.com/neophora/neo2go/pkg/core/block"
+	"github.com/neophora/neo2go/pkg/io"
 	"github.com/pkg/errors"
 )
 

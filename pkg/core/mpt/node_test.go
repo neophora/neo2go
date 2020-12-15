@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/internal/random"
-	"github.com/nspcc-dev/neo-go/pkg/internal/testserdes"
-	"github.com/nspcc-dev/neo-go/pkg/io"
+	"github.com/neophora/neo2go/pkg/internal/random"
+	"github.com/neophora/neo2go/pkg/internal/testserdes"
+	"github.com/neophora/neo2go/pkg/io"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

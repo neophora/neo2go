@@ -6,7 +6,7 @@ contract.
 */
 package storage
 
-import "github.com/nspcc-dev/neo-go/pkg/interop/iterator"
+import "github.com/neophora/neo2go/pkg/interop/iterator"
 
 // Context represents storage context that is mandatory for Put/Get/Delete
 // operations. It's an opaque type that can only be created properly by

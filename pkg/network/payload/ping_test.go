@@ -3,7 +3,7 @@ package payload
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/internal/testserdes"
+	"github.com/neophora/neo2go/pkg/internal/testserdes"
 	"github.com/stretchr/testify/assert"
 )
 

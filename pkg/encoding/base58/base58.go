@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	"github.com/mr-tron/base58"
-	"github.com/nspcc-dev/neo-go/pkg/crypto/hash"
+	"github.com/neophora/neo2go/pkg/crypto/hash"
 	"github.com/pkg/errors"
 )
 

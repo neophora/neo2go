@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/nspcc-dev/neo-go/pkg/core"
-	"github.com/nspcc-dev/neo-go/pkg/core/transaction"
-	"github.com/nspcc-dev/neo-go/pkg/rpc/response"
+	"github.com/neophora/neo2go/pkg/core"
+	"github.com/neophora/neo2go/pkg/core/transaction"
+	"github.com/neophora/neo2go/pkg/rpc/response"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 )

@@ -1,8 +1,8 @@
 package state
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/core/transaction"
-	"github.com/nspcc-dev/neo-go/pkg/io"
+	"github.com/neophora/neo2go/pkg/core/transaction"
+	"github.com/neophora/neo2go/pkg/io"
 )
 
 // UnspentCoin hold the state of a unspent coin.

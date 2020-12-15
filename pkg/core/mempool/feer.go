@@ -1,8 +1,8 @@
 package mempool
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/core/transaction"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/core/transaction"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // Feer is an interface that abstract the implementation of the fee calculation.

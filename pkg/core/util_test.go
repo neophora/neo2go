@@ -3,8 +3,8 @@ package core
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/config"
-	"github.com/nspcc-dev/neo-go/pkg/encoding/address"
+	"github.com/neophora/neo2go/pkg/config"
+	"github.com/neophora/neo2go/pkg/encoding/address"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

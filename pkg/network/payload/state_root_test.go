@@ -4,10 +4,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/core/state"
-	"github.com/nspcc-dev/neo-go/pkg/core/transaction"
-	"github.com/nspcc-dev/neo-go/pkg/internal/random"
-	"github.com/nspcc-dev/neo-go/pkg/internal/testserdes"
+	"github.com/neophora/neo2go/pkg/core/state"
+	"github.com/neophora/neo2go/pkg/core/transaction"
+	"github.com/neophora/neo2go/pkg/internal/random"
+	"github.com/neophora/neo2go/pkg/internal/testserdes"
 )
 
 func TestStateRoots_Serializable(t *testing.T) {

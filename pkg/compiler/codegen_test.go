@@ -4,8 +4,8 @@ import (
 	"go/token"
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/io"
-	"github.com/nspcc-dev/neo-go/pkg/vm/opcode"
+	"github.com/neophora/neo2go/pkg/io"
+	"github.com/neophora/neo2go/pkg/vm/opcode"
 	"github.com/stretchr/testify/assert"
 )
 

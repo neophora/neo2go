@@ -4,12 +4,12 @@ Package blockchain provides functions to access various blockchain data.
 package blockchain
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/interop/account"
-	"github.com/nspcc-dev/neo-go/pkg/interop/asset"
-	"github.com/nspcc-dev/neo-go/pkg/interop/block"
-	"github.com/nspcc-dev/neo-go/pkg/interop/contract"
-	"github.com/nspcc-dev/neo-go/pkg/interop/header"
-	"github.com/nspcc-dev/neo-go/pkg/interop/transaction"
+	"github.com/neophora/neo2go/pkg/interop/account"
+	"github.com/neophora/neo2go/pkg/interop/asset"
+	"github.com/neophora/neo2go/pkg/interop/block"
+	"github.com/neophora/neo2go/pkg/interop/contract"
+	"github.com/neophora/neo2go/pkg/interop/header"
+	"github.com/neophora/neo2go/pkg/interop/transaction"
 )
 
 // GetHeight returns current block height (index of the last accepted block).

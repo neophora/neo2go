@@ -1,8 +1,8 @@
 package result
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/crypto/keys"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // Validator used for the representation of

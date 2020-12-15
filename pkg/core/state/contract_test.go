@@ -3,9 +3,9 @@ package state
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/crypto/hash"
-	"github.com/nspcc-dev/neo-go/pkg/internal/testserdes"
-	"github.com/nspcc-dev/neo-go/pkg/smartcontract"
+	"github.com/neophora/neo2go/pkg/crypto/hash"
+	"github.com/neophora/neo2go/pkg/internal/testserdes"
+	"github.com/neophora/neo2go/pkg/smartcontract"
 	"github.com/stretchr/testify/assert"
 )
 

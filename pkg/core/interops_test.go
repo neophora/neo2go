@@ -5,10 +5,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/core/dao"
-	"github.com/nspcc-dev/neo-go/pkg/core/storage"
-	"github.com/nspcc-dev/neo-go/pkg/smartcontract/trigger"
-	"github.com/nspcc-dev/neo-go/pkg/vm"
+	"github.com/neophora/neo2go/pkg/core/dao"
+	"github.com/neophora/neo2go/pkg/core/storage"
+	"github.com/neophora/neo2go/pkg/smartcontract/trigger"
+	"github.com/neophora/neo2go/pkg/vm"
 	"github.com/stretchr/testify/require"
 )
 

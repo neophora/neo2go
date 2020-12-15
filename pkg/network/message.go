@@ -5,14 +5,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nspcc-dev/neo-go/pkg/config"
-	"github.com/nspcc-dev/neo-go/pkg/consensus"
-	"github.com/nspcc-dev/neo-go/pkg/core/block"
-	"github.com/nspcc-dev/neo-go/pkg/core/state"
-	"github.com/nspcc-dev/neo-go/pkg/core/transaction"
-	"github.com/nspcc-dev/neo-go/pkg/crypto/hash"
-	"github.com/nspcc-dev/neo-go/pkg/io"
-	"github.com/nspcc-dev/neo-go/pkg/network/payload"
+	"github.com/neophora/neo2go/pkg/config"
+	"github.com/neophora/neo2go/pkg/consensus"
+	"github.com/neophora/neo2go/pkg/core/block"
+	"github.com/neophora/neo2go/pkg/core/state"
+	"github.com/neophora/neo2go/pkg/core/transaction"
+	"github.com/neophora/neo2go/pkg/crypto/hash"
+	"github.com/neophora/neo2go/pkg/io"
+	"github.com/neophora/neo2go/pkg/network/payload"
 )
 
 const (

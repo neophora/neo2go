@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/nspcc-dev/neo-go/pkg/core/block"
-	"github.com/nspcc-dev/neo-go/pkg/core/transaction"
-	"github.com/nspcc-dev/neo-go/pkg/rpc/request"
-	"github.com/nspcc-dev/neo-go/pkg/rpc/response"
-	"github.com/nspcc-dev/neo-go/pkg/rpc/response/result"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/core/block"
+	"github.com/neophora/neo2go/pkg/core/transaction"
+	"github.com/neophora/neo2go/pkg/rpc/request"
+	"github.com/neophora/neo2go/pkg/rpc/response"
+	"github.com/neophora/neo2go/pkg/rpc/response/result"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // WSClient is a websocket-enabled RPC client that can be used with appropriate

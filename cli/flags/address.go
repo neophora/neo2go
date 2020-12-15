@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nspcc-dev/neo-go/pkg/encoding/address"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/encoding/address"
+	"github.com/neophora/neo2go/pkg/util"
 	"github.com/urfave/cli"
 )
 

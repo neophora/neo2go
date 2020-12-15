@@ -3,8 +3,8 @@ package cache
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/crypto/hash"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/crypto/hash"
+	"github.com/neophora/neo2go/pkg/util"
 	"github.com/stretchr/testify/require"
 )
 

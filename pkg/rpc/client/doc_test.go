@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nspcc-dev/neo-go/pkg/rpc/client"
+	"github.com/neophora/neo2go/pkg/rpc/client"
 )
 
 func Example() {

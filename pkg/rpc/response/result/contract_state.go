@@ -4,9 +4,9 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/nspcc-dev/neo-go/pkg/core/state"
-	"github.com/nspcc-dev/neo-go/pkg/smartcontract"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/core/state"
+	"github.com/neophora/neo2go/pkg/smartcontract"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // ContractState wrapper used for the representation of

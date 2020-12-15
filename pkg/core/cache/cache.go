@@ -4,7 +4,7 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // HashCache is a payload cache which is used to store

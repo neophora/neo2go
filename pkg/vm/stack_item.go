@@ -10,8 +10,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/nspcc-dev/neo-go/pkg/smartcontract"
-	"github.com/nspcc-dev/neo-go/pkg/vm/emit"
+	"github.com/neophora/neo2go/pkg/smartcontract"
+	"github.com/neophora/neo2go/pkg/vm/emit"
 )
 
 // A StackItem represents the "real" value that is pushed on the stack.

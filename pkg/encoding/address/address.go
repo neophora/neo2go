@@ -3,8 +3,8 @@ package address
 import (
 	"errors"
 
-	"github.com/nspcc-dev/neo-go/pkg/encoding/base58"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/encoding/base58"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // Prefix is the byte used to prepend to addresses when encoding them, it can

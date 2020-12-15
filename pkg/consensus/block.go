@@ -3,9 +3,9 @@ package consensus
 import (
 	"github.com/nspcc-dev/dbft/block"
 	"github.com/nspcc-dev/dbft/crypto"
-	coreb "github.com/nspcc-dev/neo-go/pkg/core/block"
-	"github.com/nspcc-dev/neo-go/pkg/core/transaction"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	coreb "github.com/neophora/neo2go/pkg/core/block"
+	"github.com/neophora/neo2go/pkg/core/transaction"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // neoBlock is a wrapper of core.Block which implements

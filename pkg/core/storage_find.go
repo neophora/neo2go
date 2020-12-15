@@ -1,8 +1,8 @@
 package core
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/core/dao"
-	"github.com/nspcc-dev/neo-go/pkg/vm"
+	"github.com/neophora/neo2go/pkg/core/dao"
+	"github.com/neophora/neo2go/pkg/vm"
 )
 
 type storageWrapper struct {

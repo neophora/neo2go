@@ -2,7 +2,7 @@ package consensus
 
 import (
 	"github.com/nspcc-dev/dbft/payload"
-	"github.com/nspcc-dev/neo-go/pkg/io"
+	"github.com/neophora/neo2go/pkg/io"
 )
 
 // changeView represents dBFT ChangeView message.

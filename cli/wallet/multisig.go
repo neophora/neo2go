@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/nspcc-dev/neo-go/pkg/core/transaction"
-	"github.com/nspcc-dev/neo-go/pkg/encoding/address"
-	"github.com/nspcc-dev/neo-go/pkg/rpc/client"
-	"github.com/nspcc-dev/neo-go/pkg/smartcontract/context"
+	"github.com/neophora/neo2go/pkg/core/transaction"
+	"github.com/neophora/neo2go/pkg/encoding/address"
+	"github.com/neophora/neo2go/pkg/rpc/client"
+	"github.com/neophora/neo2go/pkg/smartcontract/context"
 	"github.com/urfave/cli"
 )
 

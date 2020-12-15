@@ -3,9 +3,9 @@ package mpt
 import (
 	"fmt"
 
-	"github.com/nspcc-dev/neo-go/pkg/crypto/hash"
-	"github.com/nspcc-dev/neo-go/pkg/io"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/crypto/hash"
+	"github.com/neophora/neo2go/pkg/io"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // BaseNode implements basic things every node needs like caching hash and

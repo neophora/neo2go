@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/nspcc-dev/neo-go/pkg/smartcontract"
-	"github.com/nspcc-dev/neo-go/pkg/vm/emit"
+	"github.com/neophora/neo2go/pkg/smartcontract"
+	"github.com/neophora/neo2go/pkg/vm/emit"
 )
 
 // Stack implementation for the neo-go virtual machine. The stack implements

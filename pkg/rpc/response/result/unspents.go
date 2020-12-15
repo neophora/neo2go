@@ -1,9 +1,9 @@
 package result
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/core"
-	"github.com/nspcc-dev/neo-go/pkg/core/state"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/core"
+	"github.com/neophora/neo2go/pkg/core/state"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // UnspentBalanceInfo wrapper is used to represent single unspent asset entry

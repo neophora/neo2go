@@ -3,8 +3,8 @@ package mpt
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/core/storage"
-	"github.com/nspcc-dev/neo-go/pkg/internal/random"
+	"github.com/neophora/neo2go/pkg/core/storage"
+	"github.com/neophora/neo2go/pkg/internal/random"
 	"github.com/stretchr/testify/require"
 )
 

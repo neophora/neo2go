@@ -175,8 +175,8 @@ Some examples are provided in the [examples directory](../examples).
 package mycontract
 
 import (
-    "github.com/nspcc-dev/neo-go/pkg/interop/runtime"
-    "github.com/nspcc-dev/neo-go/pkg/interop/util"
+    "github.com/neophora/neo2go/pkg/interop/runtime"
+    "github.com/neophora/neo2go/pkg/interop/util"
 )
 
 var owner = util.FromAddress("AJX1jGfj3qPBbpAKjY527nPbnrnvSx9nCg") 
@@ -199,8 +199,8 @@ func Main() bool {
 package mytoken
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/interop/runtime"
-	"github.com/nspcc-dev/neo-go/pkg/interop/storage"
+	"github.com/neophora/neo2go/pkg/interop/runtime"
+	"github.com/neophora/neo2go/pkg/interop/storage"
 )
 
 var owner = util.FromAddress("AJX1jGfj3qPBbpAKjY527nPbnrnvSx9nCg") 

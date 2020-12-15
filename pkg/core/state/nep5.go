@@ -4,10 +4,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/nspcc-dev/neo-go/pkg/io"
-	"github.com/nspcc-dev/neo-go/pkg/util"
-	"github.com/nspcc-dev/neo-go/pkg/vm"
-	"github.com/nspcc-dev/neo-go/pkg/vm/emit"
+	"github.com/neophora/neo2go/pkg/io"
+	"github.com/neophora/neo2go/pkg/util"
+	"github.com/neophora/neo2go/pkg/vm"
+	"github.com/neophora/neo2go/pkg/vm/emit"
 )
 
 // NEP5Tracker contains info about a single account in a NEP5 contract.

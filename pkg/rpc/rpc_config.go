@@ -1,6 +1,6 @@
 package rpc
 
-import "github.com/nspcc-dev/neo-go/pkg/util"
+import "github.com/neophora/neo2go/pkg/util"
 
 type (
 	// Config is an RPC service configuration information

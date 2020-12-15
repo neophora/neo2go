@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nspcc-dev/neo-go/pkg/core/block"
+	"github.com/neophora/neo2go/pkg/core/block"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zaptest"
 )

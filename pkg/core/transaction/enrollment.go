@@ -1,8 +1,8 @@
 package transaction
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	"github.com/nspcc-dev/neo-go/pkg/io"
+	"github.com/neophora/neo2go/pkg/crypto/keys"
+	"github.com/neophora/neo2go/pkg/io"
 )
 
 // EnrollmentTX transaction represents an enrollment form, which indicates

@@ -3,9 +3,9 @@ package payload
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/crypto/hash"
-	"github.com/nspcc-dev/neo-go/pkg/internal/testserdes"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/crypto/hash"
+	"github.com/neophora/neo2go/pkg/internal/testserdes"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 func TestGetBlockEncodeDecode(t *testing.T) {

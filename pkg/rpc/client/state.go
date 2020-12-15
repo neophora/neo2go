@@ -3,10 +3,10 @@ package client
 import (
 	"encoding/hex"
 
-	"github.com/nspcc-dev/neo-go/pkg/core/state"
-	"github.com/nspcc-dev/neo-go/pkg/rpc/request"
-	"github.com/nspcc-dev/neo-go/pkg/rpc/response/result"
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/core/state"
+	"github.com/neophora/neo2go/pkg/rpc/request"
+	"github.com/neophora/neo2go/pkg/rpc/response/result"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // GetStateRootByHeight returns state root for the given height.

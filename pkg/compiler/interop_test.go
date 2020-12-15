@@ -6,17 +6,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/compiler"
-	"github.com/nspcc-dev/neo-go/pkg/crypto/hash"
-	"github.com/nspcc-dev/neo-go/pkg/encoding/address"
-	"github.com/nspcc-dev/neo-go/pkg/util"
-	"github.com/nspcc-dev/neo-go/pkg/vm"
+	"github.com/neophora/neo2go/pkg/compiler"
+	"github.com/neophora/neo2go/pkg/crypto/hash"
+	"github.com/neophora/neo2go/pkg/encoding/address"
+	"github.com/neophora/neo2go/pkg/util"
+	"github.com/neophora/neo2go/pkg/vm"
 	"github.com/stretchr/testify/require"
 )
 
 func TestRemove(t *testing.T) {
 	srcTmpl := `package foo
-	import "github.com/nspcc-dev/neo-go/pkg/interop/util"
+	import "github.com/neophora/neo2go/pkg/interop/util"
 	func Main() int {
 		a := %s
 		util.Remove(a, %d)
@@ -46,7 +46,7 @@ func TestRemove(t *testing.T) {
 	})
 	t.Run("Invalid", func(t *testing.T) {
 		srcTmpl := `package foo
-		import "github.com/nspcc-dev/neo-go/pkg/interop/util"
+		import "github.com/neophora/neo2go/pkg/interop/util"
 		func Main() int {
 			util.Remove(%s, 2)
 			return 1
@@ -76,7 +76,7 @@ func TestFromAddress(t *testing.T) {
 	t.Run("append 2 addresses", func(t *testing.T) {
 		src := `
 		package foo
-		import "github.com/nspcc-dev/neo-go/pkg/interop/util"
+		import "github.com/neophora/neo2go/pkg/interop/util"
 		func Main() []byte {
 			addr1 := util.FromAddress("` + as1 + `")
 			addr2 := util.FromAddress("` + as2 + `")
@@ -91,7 +91,7 @@ func TestFromAddress(t *testing.T) {
 	t.Run("append 2 addresses inline", func(t *testing.T) {
 		src := `
 		package foo
-		import "github.com/nspcc-dev/neo-go/pkg/interop/util"
+		import "github.com/neophora/neo2go/pkg/interop/util"
 		func Main() []byte {
 			addr1 := util.FromAddress("` + as1 + `")
 			sum := append(addr1, util.FromAddress("` + as2 + `")...)
@@ -106,7 +106,7 @@ func TestFromAddress(t *testing.T) {
 func TestAppCall(t *testing.T) {
 	const srcDynApp = `
 	package foo
-	import "github.com/nspcc-dev/neo-go/pkg/interop/engine"
+	import "github.com/neophora/neo2go/pkg/interop/engine"
 	func Main(h []byte) []byte {
 		x := []byte{1, 2}
 		y := []byte{3, 4}
@@ -144,7 +144,7 @@ func TestAppCall(t *testing.T) {
 
 	dynEntryScript := `
 	package foo
-	import "github.com/nspcc-dev/neo-go/pkg/interop/engine"
+	import "github.com/neophora/neo2go/pkg/interop/engine"
 	func Main(h []byte) interface{} {
 		return engine.AppCall(` + fmt.Sprintf("%#v", dh.BytesBE()) + `, h)
 	}
@@ -183,7 +183,7 @@ func TestAppCall(t *testing.T) {
 	t.Run("convert from string constant", func(t *testing.T) {
 		src := `
 		package foo
-		import "github.com/nspcc-dev/neo-go/pkg/interop/engine"
+		import "github.com/neophora/neo2go/pkg/interop/engine"
 		const scriptHash = ` + fmt.Sprintf("%#v", string(ih.BytesBE())) + `
 		func Main() []byte {
 			x := []byte{1, 2}
@@ -237,7 +237,7 @@ func TestAppCall(t *testing.T) {
 func getAppCallScript(h string) string {
 	return `
 	package foo
-	import "github.com/nspcc-dev/neo-go/pkg/interop/engine"
+	import "github.com/neophora/neo2go/pkg/interop/engine"
 	func Main() []byte {
 		x := []byte{1, 2}
 		y := []byte{3, 4}

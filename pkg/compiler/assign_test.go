@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/vm"
+	"github.com/neophora/neo2go/pkg/vm"
 )
 
 var assignTestCases = []testCase{

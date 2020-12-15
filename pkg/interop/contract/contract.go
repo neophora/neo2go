@@ -3,7 +3,7 @@ Package contract provides functions to work with contracts.
 */
 package contract
 
-import "github.com/nspcc-dev/neo-go/pkg/interop/storage"
+import "github.com/neophora/neo2go/pkg/interop/storage"
 
 // Contract represents a Neo contract and is used in interop functions. It's
 // an opaque data structure that you can manipulate with using functions from

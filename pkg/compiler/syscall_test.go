@@ -3,7 +3,7 @@ package compiler_test
 import (
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/vm"
+	"github.com/neophora/neo2go/pkg/vm"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -12,7 +12,7 @@ func TestStoragePutGet(t *testing.T) {
 	src := `
 		package foo
 
-		import "github.com/nspcc-dev/neo-go/pkg/interop/storage"
+		import "github.com/neophora/neo2go/pkg/interop/storage"
 
 		func Main() string {
 			ctx := storage.GetContext()
@@ -27,7 +27,7 @@ func TestStoragePutGet(t *testing.T) {
 
 func TestNotify(t *testing.T) {
 	src := `package foo
-	import "github.com/nspcc-dev/neo-go/pkg/interop/runtime"
+	import "github.com/neophora/neo2go/pkg/interop/runtime"
 	func Main(arg int) {
 		runtime.Notify(arg, "sum", arg+1)
 		runtime.Notify()

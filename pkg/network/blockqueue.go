@@ -2,8 +2,8 @@ package network
 
 import (
 	"github.com/Workiva/go-datastructures/queue"
-	"github.com/nspcc-dev/neo-go/pkg/core"
-	"github.com/nspcc-dev/neo-go/pkg/core/block"
+	"github.com/neophora/neo2go/pkg/core"
+	"github.com/neophora/neo2go/pkg/core/block"
 	"go.uber.org/zap"
 )
 

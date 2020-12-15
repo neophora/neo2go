@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nspcc-dev/neo-go/pkg/io"
+	"github.com/neophora/neo2go/pkg/io"
 	"github.com/syndtr/goleveldb/leveldb/util"
 	"go.etcd.io/bbolt"
 )

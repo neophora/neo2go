@@ -3,7 +3,7 @@ Package iterator provides functions to work with Neo iterators.
 */
 package iterator
 
-import "github.com/nspcc-dev/neo-go/pkg/interop/enumerator"
+import "github.com/neophora/neo2go/pkg/interop/enumerator"
 
 // Iterator represents a Neo iterator, it's an opaque data structure that can
 // be properly created by Create or storage.Find. Unlike enumerators, iterators

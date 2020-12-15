@@ -5,7 +5,7 @@ framework.
 */
 package engine
 
-import "github.com/nspcc-dev/neo-go/pkg/interop/transaction"
+import "github.com/neophora/neo2go/pkg/interop/transaction"
 
 // GetScriptContainer returns the transaction that initially triggered current
 // execution context. It never changes in a single execution, no matter how deep

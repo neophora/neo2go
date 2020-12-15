@@ -3,7 +3,7 @@ package result
 import (
 	"encoding/json"
 
-	"github.com/nspcc-dev/neo-go/pkg/util"
+	"github.com/neophora/neo2go/pkg/util"
 )
 
 // NEP5Balances is a result for the getnep5balances RPC call.

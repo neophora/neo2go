@@ -3,11 +3,11 @@ package main
 import (
 	"os"
 
-	"github.com/nspcc-dev/neo-go/cli/server"
-	"github.com/nspcc-dev/neo-go/cli/smartcontract"
-	"github.com/nspcc-dev/neo-go/cli/vm"
-	"github.com/nspcc-dev/neo-go/cli/wallet"
-	"github.com/nspcc-dev/neo-go/pkg/config"
+	"github.com/neophora/neo2go/cli/server"
+	"github.com/neophora/neo2go/cli/smartcontract"
+	"github.com/neophora/neo2go/cli/vm"
+	"github.com/neophora/neo2go/cli/wallet"
+	"github.com/neophora/neo2go/pkg/config"
 	"github.com/urfave/cli"
 )
 

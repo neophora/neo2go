@@ -13,17 +13,17 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/nspcc-dev/neo-go/cli/flags"
-	"github.com/nspcc-dev/neo-go/pkg/compiler"
-	"github.com/nspcc-dev/neo-go/pkg/crypto/hash"
-	"github.com/nspcc-dev/neo-go/pkg/encoding/address"
-	"github.com/nspcc-dev/neo-go/pkg/rpc/client"
-	"github.com/nspcc-dev/neo-go/pkg/rpc/request"
-	"github.com/nspcc-dev/neo-go/pkg/rpc/response/result"
-	"github.com/nspcc-dev/neo-go/pkg/smartcontract"
-	"github.com/nspcc-dev/neo-go/pkg/util"
-	"github.com/nspcc-dev/neo-go/pkg/vm"
-	"github.com/nspcc-dev/neo-go/pkg/wallet"
+	"github.com/neophora/neo2go/cli/flags"
+	"github.com/neophora/neo2go/pkg/compiler"
+	"github.com/neophora/neo2go/pkg/crypto/hash"
+	"github.com/neophora/neo2go/pkg/encoding/address"
+	"github.com/neophora/neo2go/pkg/rpc/client"
+	"github.com/neophora/neo2go/pkg/rpc/request"
+	"github.com/neophora/neo2go/pkg/rpc/response/result"
+	"github.com/neophora/neo2go/pkg/smartcontract"
+	"github.com/neophora/neo2go/pkg/util"
+	"github.com/neophora/neo2go/pkg/vm"
+	"github.com/neophora/neo2go/pkg/wallet"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 	"golang.org/x/crypto/ssh/terminal"
@@ -63,7 +63,7 @@ const (
 	// %s is parsed to be the smartContractName
 	smartContractTmpl = `package %s
 
-import "github.com/nspcc-dev/neo-go/pkg/interop/runtime"
+import "github.com/neophora/neo2go/pkg/interop/runtime"
 
 func Main(op string, args []interface{}) {
     runtime.Notify("Hello world!")

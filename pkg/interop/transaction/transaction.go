@@ -4,10 +4,10 @@ Package transaction provides functions to work with transactions.
 package transaction
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/interop/attribute"
-	"github.com/nspcc-dev/neo-go/pkg/interop/input"
-	"github.com/nspcc-dev/neo-go/pkg/interop/output"
-	"github.com/nspcc-dev/neo-go/pkg/interop/witness"
+	"github.com/neophora/neo2go/pkg/interop/attribute"
+	"github.com/neophora/neo2go/pkg/interop/input"
+	"github.com/neophora/neo2go/pkg/interop/output"
+	"github.com/neophora/neo2go/pkg/interop/witness"
 )
 
 // Transaction represents a NEO transaction, it's an opaque data structure

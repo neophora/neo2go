@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/nspcc-dev/neo-go/pkg/smartcontract"
+	"github.com/neophora/neo2go/pkg/smartcontract"
 	"golang.org/x/tools/go/loader"
 )
 

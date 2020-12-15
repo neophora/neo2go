@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/nspcc-dev/neo-go/pkg/smartcontract"
+	"github.com/neophora/neo2go/pkg/smartcontract"
 	"github.com/stretchr/testify/assert"
 )
 

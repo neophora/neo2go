@@ -3,7 +3,7 @@ Package block provides getters for Neo Block structure.
 */
 package block
 
-import "github.com/nspcc-dev/neo-go/pkg/interop/transaction"
+import "github.com/neophora/neo2go/pkg/interop/transaction"
 
 // Block represents a NEO block, it's an opaque data structure that you can get
 // data from only using functions from this package. It's similar in function to

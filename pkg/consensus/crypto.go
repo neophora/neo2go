@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"errors"
 
-	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
+	"github.com/neophora/neo2go/pkg/crypto/keys"
 )
 
 // privateKey is a wrapper around keys.PrivateKey

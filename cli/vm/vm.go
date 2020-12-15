@@ -1,7 +1,7 @@
 package vm
 
 import (
-	vmcli "github.com/nspcc-dev/neo-go/pkg/vm/cli"
+	vmcli "github.com/neophora/neo2go/pkg/vm/cli"
 	"github.com/urfave/cli"
 )
 

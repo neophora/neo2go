@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/nspcc-dev/neo-go/pkg/crypto/keys"
-	"github.com/nspcc-dev/neo-go/pkg/io"
-	"github.com/nspcc-dev/neo-go/pkg/vm/emit"
-	"github.com/nspcc-dev/neo-go/pkg/vm/opcode"
+	"github.com/neophora/neo2go/pkg/crypto/keys"
+	"github.com/neophora/neo2go/pkg/io"
+	"github.com/neophora/neo2go/pkg/vm/emit"
+	"github.com/neophora/neo2go/pkg/vm/opcode"
 )
 
 // CreateMultiSigRedeemScript creates a script runnable by the VM.

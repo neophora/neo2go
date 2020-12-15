@@ -1,6 +1,6 @@
 package payload
 
-import "github.com/nspcc-dev/neo-go/pkg/io"
+import "github.com/neophora/neo2go/pkg/io"
 
 // Payload is anything that can be binary encoded/decoded.
 type Payload interface {

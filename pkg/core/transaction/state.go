@@ -1,7 +1,7 @@
 package transaction
 
 import (
-	"github.com/nspcc-dev/neo-go/pkg/io"
+	"github.com/neophora/neo2go/pkg/io"
 )
 
 // StateTX represents a state transaction.
